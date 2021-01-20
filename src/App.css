@@ -1,6 +1,6 @@
 .app-wrapper {
   width: 800px;
-  margin: 0%;
+  margin: 0 auto;
   display: grid;
   
 
@@ -12,34 +12,7 @@
     grid-gap: 10px;
 }
 
-.header {
-  grid-area: h;
-  background-color: blue;
 
-}
-
-.header img {
-  width: 50px;
-
-} 
-
-.nav {
-  grid-area: n;
-  background-color: red;
-}
-
-.content {
-  grid-area: c;
-  background-color:seagreen;
-  width: 1200px;
-
-}
-
-.content img {
-  width: 1200px;
-  height: 600px;
-
-} 
 
 .App {
   text-align: center;

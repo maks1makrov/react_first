@@ -1,7 +1,8 @@
-import './../App.css';
+
+import s from './Profile.module.css';
 
 const Profile = () =>  {
-    return <div className='content'>
+    return <div className={s.content}>
     <div>
       <img src='https://cdn.pixabay.com/photo/2015/09/26/13/45/model-959087_1280.jpg'/>
     </div>
